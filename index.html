@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The Payment Card</h1>
+    <div class="pay_card">
+        
+        <form id="payment-card">
+
+            <div id="div1">
+                <label for="name" required>Enter The Name of the user: </label>
+                <input type="text" id="name" required >
+           </div> 
+
+            <div id="div2">
+                <label for="amount">Enter the Amount in <span>₹</span></label>
+                <input type="text" id="amount" name="amount" required >
+           </div>
+            
+           <div id="div3">
+                <label for="paybtn"></label>
+                <button type="button" id="paybtn">Pay Now</button>
+           </div>
+
+        </form>
+    </div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
