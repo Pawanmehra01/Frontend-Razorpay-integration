@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(134, 121, 121);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pay_card{
+    background-color: rgb(248, 249, 245);
+    padding-top: 30px;
+    border-radius:40px;
+    width:50vw;
+    box-shadow:4px 4px 3px 4px rgb(32, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers content */
+    align-items: center;  
+}
+#paybtn{
+
+    background-color: rgb(57, 57, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100px;
+    height:50px;
+    border-radius: 40px;
+}
+h1{
+    background-color: rgb(205, 37, 48);
+    border-radius: 20px;
+    margin-bottom: 20px;  
+    box-shadow:4px 4px 3px 4px rgb(32, 31, 31);
+
+}
+#div1{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-bottom: 20px;
+
+}
+#div2{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+#div3{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
+}
+h1:hover{
+    transform:translate(-10px);
+}
+#paybtn:hover{
+    transform:translateY(-2px);
+}
+#amount{
+width:40vw;
+height: 4vh;
+border-radius: 4px;
+}
+#name{
+width:40vw;
+height: 4vh;
+border-radius: 4px;
+}
